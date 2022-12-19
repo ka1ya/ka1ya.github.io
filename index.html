@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"                   integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d6768cdf19.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+       <div class="subheader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-1 col-md-1">
+                        <a href="#" class="subheader_logo"><img src="http://onushorit.com/EasyInsurance/live_demo/img/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="col-sm-9 offset-sm-2 col-md-7 offset-md-4">
+                        <ul class="nav">
+                            <li class="nav_item"><a href="#offer" class="nav_link">OFFERS</a></li>
+                            <li class="nav_item"><a href="#about" class="nav_link">ABOUT</a></li>
+                            <li class="nav_item"><a href="#agents" class="nav_link">AGENTS</a></li>
+                            <li class="nav_item"><a href="#faq" class="nav_link">FAQ</a></li>
+                            <li class="nav_item"><a href="#blog" class="nav_link">BLOG</a></li>
+                            <li class="nav_item"><a href="#contact" class="nav_link">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="humburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>  
+       </div>
+    </header>
+
+    <section class="promo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="promo_header">GET INSURED AND <br> FEEL SECRUED</h1>
+                    <div class="promo_descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua.</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-10 offset-sm-1">
+                    <a href="#quote" class="btn btn-primary btn-xl">Get Quote Now</a>
+                    <img src="icons/arrow_down.png" alt="arrow" class="arrow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quote" class="quote">
+        <div class="container">
+            <div class="descr_black">
+                <h2 class="quote_header">Get Quote Now</h2>
+                <div class="quote_descr"><p>It's Free and Faster. Your details will be secure with us.</p></div>
+            </div>
+            <div class="quote_wrapper">
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-6">
+                      <input type="text" class="form-control" id="validationCustom01 " placeholder="Type Your First name" aria-label="Type Your First name" value="" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <input type="text" class="form-control" id="validationCustom02" placeholder="Type Your Last name" aria-label="Type Your Last name" value="" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <input type="text" class="form-control" id="validationCustomUsername" placeholder="Type Your E-Mail" aria-label="Type Your E-Mail" aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                          Please choose a username.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="validationCustom05" placeholder="Type Your Zip" aria-label="Type Your Zip" required>
+                        <div class="invalid-feedback">
+                          Please provide a valid zip.
+                        </div>
+                      </div>
+                    <div class="col-md-6">
+                      <input type="text" class="form-control" id="validationCustom03" placeholder="Type Your City" aria-label="Type Your City" required>
+                      <div class="invalid-feedback">
+                        Please provide a valid city.
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="validationCustom04" placeholder="Type Your State" aria-label="Type Your State" required>
+                      <div class="invalid-feedback">
+                        Please select a valid state.
+                      </div>
+                    </div>
+                    <div class="d-grid gap-1">
+                        <button class="btn btn-primary" type="button">get quote</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="offer" class="offer">
+        <div class="container">
+            <div class="descr_black">
+                <h2 class="offer_header">What We Offer</h2>
+                <div class="offer_descr"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem<br>accusantium doloremque laudantium, totam rem aperiam.</p></div>
+            </div>
+            <div class="row g-2">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="icons/reasons/reason_1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="icons/reasons/reason_1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="icons/reasons/reason_1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="icons/reasons/reason_1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="icons/reasons/reason_1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="icons/reasons/reason_1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="descr_black">
+                <h2 class="about_header">About Us</h2>
+                <div class="about_descr"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem<br>accusantium doloremque laudantium, totam rem aperiam.</p></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <img src="img/about.jpg" alt="" class="about_img">
+                </div>
+                <div class="col-lg-5 offset-lg-1 col-md-8 offset-md-2">
+                    <!-- <img src="img/vertical.png" alt="" class="vert_img"> -->
+                    <div class="box">
+                        <div class="text_box">
+                            <h2>December, 1989</h2>
+                            <p>Our company was founded in 1989, with a few professional agents and a small office.</p>    
+                        </div>
+                        <div class="text_box">
+                            <h2>February, 1996</h2>
+                            <p>We open two <b>New Branches, 65</b> Insurance agents, <b>3.000</b> plus Clients.</p>
+                        </div>
+                        <div class="text_box">
+                            <h2>March, 2006</h2>
+                            <p>Open Five <b>More Branches, 100</b> plus agents, <b>10.000</b> plus Clients.</p>
+                        </div>
+                        <div class="text_box">
+                            <h2>July, 2017</h2>
+                            <p>Become the <b>Best</b> Insurance Company in <b>USA</b>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="score">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 offset-lg-1 col-md-4 offset-md-1 col-sm-4 offset-sm-4 col-4 offset-4">
+                    <img src="icons/reasons/reason_3.png" alt="" class="score_icon">
+                    <h2>500K</h2>
+                    <p>Satisfied Clients</p>
+                </div>
+                <div class="col-lg-2 offset-lg-1 col-md-4 offset-md-2 col-sm-4 offset-sm-4 col-4 offset-4">
+                    <img src="icons/reasons/reason_3.png" alt="" class="score_icon">
+                    <h2>550K</h2>
+                    <p>Insurance</p>
+                </div>
+                <div class="col-lg-2 offset-lg-1 col-md-4 offset-md-1 col-sm-4 offset-sm-4 col-4 offset-4">
+                    <img src="icons/reasons/reason_3.png" alt="" class="score_icon">
+                    <h2>150K</h2>
+                    <p>Repeat Client</p>
+                </div>
+                <div class="col-lg-2 offset-lg-1 col-md-4 offset-md-2 col-sm-4 offset-sm-4 col-4 offset-4">
+                    <img src="icons/reasons/reason_3.png" alt="" class="score_icon">
+                    <h2>100%</h2>
+                    <p>Safe & Secure</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="agents" class="agents">
+        <div class="container">
+            <div class="descr_black">
+                <h2 class="agents_header">Our Agents</h2>
+                <div class="agents_descr"><p>Meet Out Best Agents</p></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="agent_details">
+                        <li class="transition col-md-6 col-lg-3">
+                            <div class="wrapper"> 
+                                <img class="transition img-circle_1" src="./img/Graphicloads-Flat-Finance-Person.ico" alt="Agent Image">
+                                <ul class="social">
+                                    <li>Best lorem dolor guy from Detroit. Nemo en. <br>
+                                        Find him on:</li>
+                                    <li class="transition"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li class="transition"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li class="transition"><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                                    <li class="transition"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                                <div class="transition adtl">
+                                    <h3><br></h3>
+                                    <img class="mamber-img img-circle" src="./img/Graphicloads-Flat-Finance-Person.ico" alt="Agent Image">
+                                    <h3>David Valles</h3>
+                                    <i>more</i> 
+                                </div> 
+                            </div>
+                        </li>
+                        <li class="transition col-lg-3 col-md-6">
+                            <div class="wrapper"> 
+                                <img class="transition img-circle_1" src="./img/Graphicloads-Flat-Finance-Person.ico" alt="Agent Image">
+                                <ul class="social">
+                                    <li>Best lorem dolor guy from Detroit. Nemo en. <br>
+                                        Find her on:</li>
+                                    <li class="transition"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li class="transition"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li class="transition"><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                                    <li class="transition"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                                <div class="transition adtl">
+                                    <h3><br></h3>
+                                    <i>more</i> 
+                                    <img class="mamber-img img-circle" src="./img/Graphicloads-Flat-Finance-Person.ico" alt="Agent Image">
+                                    <h3>Susan Horton</h3>
+                                </div> 
+                            </div>
+                        </li>
+                        <li class="transition col-lg-3 col-md-6">
+                            <div class="wrapper"> 
+                                <img class="transition img-circle_1" src="./img/Graphicloads-Flat-Finance-Person.ico" alt="Agent Image">
+                                <ul class="social">
+                                    <li>Best lorem dolor guy from Detroit. Nemo en. <br>
+                                        Find him on:</li>
+                                    <li class="transition"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li class="transition"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li class="transition"><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                                    <li class="transition"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                                <div class="transition adtl">
+                                    <h3><br></h3>
+                                    <img class="mamber-img img-circle" src="./img/Graphicloads-Flat-Finance-Person.ico" alt="Agent Image">
+                                    <h3>Mark E. Moran</h3>
+                                    <i>more</i> 
+                                </div> 
+                            </div>
+                        </li>
+                        <li class="transition col-lg-3 col-md-6">
+                            <div class="wrapper"> 
+                                <img class="transition img-circle_1" src="./img/Graphicloads-Flat-Finance-Person.ico" alt="Agent Image">
+                                <ul class="social">
+                                    <li>Best lorem dolor guy from Detroit. Nemo en. <br>
+                                        Find her on:</li>
+                                    <li class="transition"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li class="transition"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li class="transition"><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                                    <li class="transition"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                                <div class="transition adtl">
+                                    <h3><br></h3>
+                                    <img class="mamber-img img-circle" src="./img/Graphicloads-Flat-Finance-Person.ico" alt="Agent Image">
+                                    <h3>Lori S. Lobb</h3>
+                                    <i>more</i> 
+                                </div> 
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="descr_black">
+                <h2 class="testimonials_header">Our Agents</h2>
+                <div class="testimonials_descr"><p>Meet Out Best Agents</p></div>
+            </div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel_text">
+                            Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                        </div>
+                        <div class="inside_carousel">
+                            <img src="./img/Graphicloads-Flat-Finance-Person.ico" class="d-block" alt="">
+                            <div class="img_descr">
+                                <h4>Kevin C. Lang</h4>
+                                <p>Admin, LMN Corporation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel_text">
+                            Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                        </div>
+                        <div class="inside_carousel">
+                            <img src="./img/Graphicloads-Flat-Finance-Person.ico" class="d-block" alt="">
+                            <div class="img_descr">
+                                <h4>Thomas V. Bass</h4>
+                                <p>Admin, LMN Corporation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel_text">
+                            Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                        </div>
+                        <div class="inside_carousel">
+                            <img src="./img/Graphicloads-Flat-Finance-Person.ico" alt="">
+                            <div class="img_descr">
+                                <h4>Chelsea G. Goodrich</h4>
+                                <p>CEO, ABC Corporation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="descr_black">
+                <h2 class="faq_header">FAQ</h2>
+            <div class="faq_descr"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem<br>accusantium doloremque laudantium, totam rem aperiam.</p></div>
+            </div>
+            <div class="row g-2">
+                <div class="col-md-12 col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Do I Have To Pay For An Online Quote?</h5>
+                            <p class="card-text">Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo en.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Do I Have To Pay For An Online Quote?</h5>
+                            <p class="card-text">Lorem Ipsum ist ein einfacher DemoText für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo en.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Do I Have To Pay For An Online Quote?</h5>
+                            <p class="card-text">Lorem Ipsum ist ein einfacher DemoText für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo en.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Do I Have To Pay For An Online Quote?</h5>
+                            <p class="card-text">Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo en.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feedback">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="icons/check_blue.png" alt="">
+                    <h5>SUBSCRIBE TO OUR NEWSLETTER</h5>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Enter your E-Mail" aria-label="Enter your E-Mail" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2"><span>SUBSCRIBE</span></button>
+                    </div>
+                </div>
+                <div class="col-md-5 offset-md-2">
+                    <img src="icons/check_red.png" alt="">
+                    <h5>SUBMIT YOUR NUMBER FOR GET A CALL</h5>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Enter your number" aria-label="Enter your number" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2"><span>SUBMIT</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="descr_black">
+                <h2 class="blog_header">Our Blog</h2>
+                <div class="blog_descr"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem<br>accusantium doloremque laudantium, totam rem aperiam.</p></div>
+            </div>
+            <div class="row g-2">
+                <div class="col-md-12 col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Do I Have To Pay For An Online Quote?</h5>
+                            <p class="card-text">Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo en.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Do I Have To Pay For An Online Quote?</h5>
+                            <p class="card-text">Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo en.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Do I Have To Pay For An Online Quote?</h5>
+                            <p class="card-text">Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo en.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="client">
+        <div class="container">
+            <div class="descr_black">
+                <h2 class="clients_header">Our Clients</h2>
+                <div class="clients_descr"><p>Meet Out Best Clients</p></div>
+            </div>
+            <div id="carousel-client" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                                <img src="./icons/logo_client.webp" alt="" class="client_logo">
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                                <img src="./icons/logo_client.webp" alt="" class="client_logo">
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                                <img src="./icons/logo_client.webp" alt="" class="client_logo">
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                                <img src="./icons/logo_client.webp" alt="" class="client_logo">
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                                <img src="./icons/logo_client.webp" alt="" class="client_logo">
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                                <img src="./icons/logo_client.webp" alt="" class="client_logo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                                <img src="./icons/logo_client.webp" alt="" class="client_logo">
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                                <img src="./icons/logo_client.webp" alt="" class="client_logo">
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                                <img src="./icons/logo_client.webp" alt="" class="client_logo">
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                                <img src="./icons/logo_client.webp" alt="" class="client_logo">
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                                <img src="./icons/logo_client.webp" alt="" class="client_logo">
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                                <img src="./icons/logo_client.webp" alt="" class="client_logo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                                <img src="./icons/logo_client.webp" alt="" class="client_logo">
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                                <img src="./icons/logo_client.webp" alt="" class="client_logo">
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                                <img src="./icons/logo_client.webp" alt="" class="client_logo">
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                                <img src="./icons/logo_client.webp" alt="" class="client_logo">
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                                <img src="./icons/logo_client.webp" alt="" class="client_logo">
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                                <img src="./icons/logo_client.webp" alt="" class="client_logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="branches">  
+        <div class="container">
+            <h2 class="branches_header">Our Branches</h2>
+            <div class="branches_descr"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem<br>accusantium doloremque laudantium, totam rem aperiam.</p></div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="pin_info">
+                        <img src="icons/loc-pin.png" alt="">
+                        <span>555 Fifth Avenue,<br>New York, NY, 10017</span> 
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                   <div class="pin_info">
+                        <img src="icons/loc-pin.png" alt="">
+                        <span>1754 Clarence Court,<br>Ontario, CA 91762</span> 
+                   </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="pin_info">
+                        <img src="icons/loc-pin.png" alt="">
+                        <span>1156 Fraggle Drive,<br>Hickory Hills, IL 60457</span> 
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="pin_info">
+                        <img src="icons/loc-pin.png" alt="">
+                        <span>2730 New Avenue,<br>Dallas, TX 75204</span> 
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="descr_black">
+                <h2 class="quote_header">Contact Us</h2>
+                <div class="quote_descr"><p>For any information or help about Insurance you can contact with us.<br>We would love to hear from you!</p></div>
+            </div>
+            <div class="quote_wrapper">
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-6">
+                      <input type="text" class="form-control" id="validationCustom01 " placeholder="Type Your Name" aria-label="Type Your Name" value="" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="input-group has-validation">
+                        <input type="text" class="form-control" id="validationCustomUsername" placeholder="Type Your E-Mail" aria-label="Type Your E-Mail" aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                          Please choose a username.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group has-validation">
+                          <input type="text" class="form-control" id="validationCustomUsername" placeholder="Type Your Phone Number" aria-label="Type Your Phone Number" aria-describedby="inputGroupPrepend" required>
+                          <div class="invalid-feedback">
+                            Please choose a username.
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="validationCustom05" placeholder="Type Your Zip" aria-label="Type Your Zip" required>
+                        <div class="invalid-feedback">
+                          Please provide a valid zip.
+                        </div>
+                      </div>
+                    <div class="col-md-12">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Type Message Text" aria-label="Type Message Text" rows="4" required></textarea>
+                    </div>
+                    <div class="d-grid gap-1">
+                        <button class="btn btn-primary" type="button">
+                            submit
+                            <img src="icons/send_it.png" alt="">
+                        </button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="final">
+        <div class="container">
+            <h2>Are you ready to work with us ?</h2>
+            <a href="#quote" class="btn btn-primary btn-xl">Get Quote Now</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer_text">
+                    Contemplate pain.<br><hr>Accept pain. - Know pain!
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="JS/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
